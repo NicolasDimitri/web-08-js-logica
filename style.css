@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    background: linear-gradient(90deg, rgb(12, 90, 12), rgb(52, 85, 20), rgb(15, 51, 85));
+}
+
+header.topo {
+    background: linear-gradient(1200deg, rgb(12, 90, 12), rgb(82, 129, 39), rgb(15, 51, 85));
+    width: auto;
+    height: 100px;
+    border: 2px black;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 0px;
+}
+
+header.topo h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+.container.card h2 {
+    margin: 0px;
+
+}

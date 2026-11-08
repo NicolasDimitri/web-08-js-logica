@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS</title>
+</head>
+
+<body>
+    <header class="topo">
+        <h1>Exercicios Reformed Vitor</h1>
+    </header>
+    <main class="container">
+        <section class="card">
+            <h2>Vamos calcular seu IMC</h2>
+            <p>insira suas informações</p>
+            <form onsubmit="calcular(event)">
+                <label for="nome">Nome: <input type="text" id="nome" placeholder="insira seu lindo nome"
+                        required></label><br>
+                <label for="altura">Altura: <input type="number" id="altura" step="0.1" required
+                        placeholder="insira sua altura"></label><br>
+                <label for="peso">Peso: <input type="number" id="peso" placeholder="insira seu peso em kg"
+                        required></label><br>
+                <label for="sexo">Sexo:</label>
+                <select id="sexo" name="sexo" required>
+                    <option value="" disabled selected>Selecione seu Sexo</option>
+                    <option value="homem">Homem</option>
+                    <option value="mulher">Mulher</option>
+                    <option value="transformer">Máquina de Combate</option>
+                </select>
+
+                <div id="resultado"></div>
+                <button type="submit">Calcular</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
